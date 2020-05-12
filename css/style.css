@@ -560,7 +560,12 @@ background: linear-gradient(90deg, rgba(252,202,69,1) 0%, rgba(249,146,74,1) 48%
 }
 
 .footer_section a {
-  color: #191818;
+  color: #039BE5;
+  text-decoration: underline;
+}
+
+.footer_section a:hover {
+  color: #039BE5;
 }
 
 .text-align-right {
