@@ -100,9 +100,33 @@ body {
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 10px 10px 0px 30px;
+  padding: 10px 10px 0px 10px;
   color: #FFF;
   text-align: center
+}
+
+.nav-link-languages {
+  padding: 5px 3px 0px 3px;
+  color: #FFF;
+  text-align: center;
+}
+.li-language {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  justify-content: center;
+}
+.nav-link-languages:hover {
+  color: #FFF;
+}
+.active-language {
+  background:white;
+  color:#ff5a1d;
+  border-radius: 2px;
+  padding: 5px 6px 0px 6px;
+}
+.active-language:hover {
+  color:#ff5a1d !important;
 }
 
 a,
