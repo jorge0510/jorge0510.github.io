@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #000000;
   background-color: #ffffff;
 }
@@ -16,7 +16,6 @@ body {
   padding-top: 45px;
 }
 
-
 .layout_padding2-bottom {
   padding-bottom: 45px;
 }
@@ -28,7 +27,6 @@ body {
 .layout_padding-bottom {
   padding-bottom: 75px;
 }
-
 
 .custom_dark-btn,
 .custom_orange-btn {
@@ -71,13 +69,12 @@ body {
   text-align: center;
 }
 
-
 /*header section*/
 .hero_area {
   height: 75vh;
   height: fit-content;
-  background: rgb(141,16,64);
-  background: linear-gradient(74deg, rgba(141,16,64,1) 0%, rgba(252,93,53,1) 39%);
+  background: rgb(150, 44, 17);
+  background: linear-gradient(74deg, rgb(150, 44, 17) 0%, rgb(163, 37, 5) 39%);
 }
 
 .main_header {
@@ -88,7 +85,6 @@ body {
 .hero_area.sub_pages {
   height: relative;
 }
-
 
 .header_section .container-fluid {
   padding-right: 10px;
@@ -101,13 +97,13 @@ body {
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
   padding: 10px 10px 0px 10px;
-  color: #FFF;
-  text-align: center
+  color: #fff;
+  text-align: center;
 }
 
 .nav-link-languages {
   padding: 5px 3px 0px 3px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
 }
 .li-language {
@@ -117,16 +113,16 @@ body {
   justify-content: center;
 }
 .nav-link-languages:hover {
-  color: #FFF;
+  color: #fff;
 }
 .active-language {
-  background:white;
-  color:#ff5a1d;
+  background: white;
+  color: #ff5a1d;
   border-radius: 2px;
   padding: 5px 6px 0px 6px;
 }
 .active-language:hover {
-  color:#ff5a1d !important;
+  color: #ff5a1d !important;
 }
 
 a,
@@ -145,8 +141,6 @@ a:focus {
   outline: none !important;
   box-shadow: none;
 }
-
-
 
 .navbar-brand,
 .navbar-brand:hover {
@@ -197,18 +191,16 @@ a:focus {
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
   background-image: url(../images/menu.png);
   background-size: 55px;
-  
 }
 
 .quote_btn-container a {
   display: inline-block;
   padding: 5px 15px;
-  background-color:transparent;
+  background-color: transparent;
   color: #f7f7f7;
   font-size: 14px;
   text-transform: uppercase;
 }
-
 
 /*end header section*/
 
@@ -291,7 +283,7 @@ a:focus {
 
 .slider_section .custom_carousel-control .carousel-control-prev {
   background-image: url(../images/prev.png);
-  background-color: #fc5d35;
+  background-color: red;
 }
 
 .slider_section .custom_carousel-control .carousel-control-next {
@@ -301,12 +293,16 @@ a:focus {
 
 /* end slider section */
 
-
 /* service section */
 
-.premium-services{
-  background: rgb(252,202,69);
-background: linear-gradient(90deg, rgba(252,202,69,1) 0%, rgba(249,146,74,1) 48%, rgba(252,202,69,1) 100%);
+.premium-services {
+  background: rgb(252, 202, 69);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 202, 69, 1) 0%,
+    rgba(249, 146, 74, 1) 48%,
+    rgba(252, 202, 69, 1) 100%
+  );
 }
 
 .service_section .card .card-img-top {
@@ -319,7 +315,6 @@ background: linear-gradient(90deg, rgba(252,202,69,1) 0%, rgba(249,146,74,1) 48%
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
-  
 }
 
 .service_section .circle {
@@ -336,7 +331,7 @@ background: linear-gradient(90deg, rgba(252,202,69,1) 0%, rgba(249,146,74,1) 48%
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 50%;
   height: 150px;
-  width:150px;
+  width: 150px;
   align-self: center;
 }
 
@@ -376,7 +371,6 @@ background: linear-gradient(90deg, rgba(252,202,69,1) 0%, rgba(249,146,74,1) 48%
   -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-
 }
 
 .service_section .card:hover::after {
@@ -385,31 +379,19 @@ background: linear-gradient(90deg, rgba(252,202,69,1) 0%, rgba(249,146,74,1) 48%
 
 /* end service section */
 
-
-
-
-
-
 /* tasty section */
-
-
 
 .tasty_section {
   width: 100%;
   height: fit-content;
   min-height: 291px;
-  background:
-  linear-gradient(
-    rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.4)
-  ),
-  url(../images/tasty-image.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/tasty-image.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .tasty_section h2 {
@@ -422,7 +404,6 @@ background: linear-gradient(90deg, rgba(252,202,69,1) 0%, rgba(249,146,74,1) 48%
 }
 
 /* end tasty section */
-
 
 /* client section */
 .client_container {
@@ -437,14 +418,13 @@ background: linear-gradient(90deg, rgba(252,202,69,1) 0%, rgba(249,146,74,1) 48%
 }
 
 .client_img-box img {
-  width: 100%
+  width: 100%;
 }
 
 .client_container h3 {
   text-align: center;
   margin-bottom: 25px;
 }
-
 
 .client_section .custom_carousel-control {
   position: absolute;
@@ -494,14 +474,13 @@ background: linear-gradient(90deg, rgba(252,202,69,1) 0%, rgba(249,146,74,1) 48%
 .contact_section input {
   border: none;
   outline: none;
-  border-bottom: .8px solid #252525;
+  border-bottom: 0.8px solid #252525;
   width: 90%;
   margin: 10px 0;
 }
 
 .contact_form-container {
   padding: 15px 0 15px 0;
-
 }
 
 .contact_form-container button {
@@ -513,14 +492,12 @@ background: linear-gradient(90deg, rgba(252,202,69,1) 0%, rgba(249,146,74,1) 48%
   font-size: 14px;
 }
 
-
 /* contact section */
 
 /* map section */
 .map_section {
   height: 500px;
 }
-
 
 /* end map section */
 
@@ -532,7 +509,6 @@ background: linear-gradient(90deg, rgba(252,202,69,1) 0%, rgba(249,146,74,1) 48%
 .info_section ul li {
   list-style-type: none;
   margin: 3px 0;
-
 }
 
 .info_section h5 {
@@ -566,10 +542,7 @@ background: linear-gradient(90deg, rgba(252,202,69,1) 0%, rgba(249,146,74,1) 48%
 
 /* end info section */
 
-
 /* footer section*/
-
-
 
 .footer_section {
   background-color: #efeded;
@@ -584,12 +557,12 @@ background: linear-gradient(90deg, rgba(252,202,69,1) 0%, rgba(249,146,74,1) 48%
 }
 
 .footer_section a {
-  color: #039BE5;
+  color: #039be5;
   text-decoration: underline;
 }
 
 .footer_section a:hover {
-  color: #039BE5;
+  color: #039be5;
 }
 
 .text-align-right {
@@ -603,7 +576,7 @@ background: linear-gradient(90deg, rgba(252,202,69,1) 0%, rgba(249,146,74,1) 48%
 }
 
 .ul-list-type .list-type:before {
-  content: '✓ ';
+  content: "✓ ";
   color: green;
   font-size: 24px;
 }
